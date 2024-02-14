@@ -4,7 +4,7 @@ const youUser = {}
 youUser.id= "34"
 youUser.name= "arif"
 //console.log(youUser);  //{ id: '34', name: 'arif' }
-/*
+
 //combine the two objects
 const obj1 = {1: "arif", 2: "areef"};
 
@@ -17,7 +17,7 @@ console.log(obj4);
 console.log(youUser);  //{ id: '34', name: 'arif' }
 console.log(Object.keys(youUser)); // changes to array [ 'id', 'name' ]
 console.log(Object.values(youUser)); //[ '34', 'arif' ]
-*/
+
 //to check weather porporties exit or not
 console.log(youUser.hasOwnProperty('name'));  //true
 console.log(youUser.hasOwnProperty('na')); //false
