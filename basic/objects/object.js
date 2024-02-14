@@ -32,5 +32,5 @@ console.log(userDeatials)
 userDeatials.book = function(){
     console.log("my book")
 }
-console.log(userDeatials.book) //you're trying to log a function reference rather than the expected value.
+console.log(userDeatials.book) //Logs the function reference
 console.log(userDeatials.book())  //o/p ->my book
