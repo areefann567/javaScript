@@ -33,3 +33,12 @@ const add=(num1,num2) =>{
     return num1+num2
 }
 console.log(add(10,20))
+//Immediately Invoked fuction Expressions(IIFE)
+//gobal scope wll take polltion(declaring) to voild we use IIFE 
+(function welocme(){
+    console.log("hello named IIFE");
+})();
+
+((namez)=>{
+    console.log(`hey unamed  ${namez}`);
+})('IIFE')
