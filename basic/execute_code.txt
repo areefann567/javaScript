@@ -1,0 +1,13 @@
+javascript execution context--> say about how javascript code will execute
+
+code-->{Global execution context}-->it refer to an variable(this)
+                                    for browser(this->windows), node, it will have differnt GEC
+
+execution context
+{Global execution context}
+{functional execution context}
+{eval execution context}
+
+how javascript code will execute
+two phase  ->  {memory creation phase} --> in this only declare the variable (just allocate memory it will not excute)
+               {exceution phase}
